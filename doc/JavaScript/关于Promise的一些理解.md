@@ -1,3 +1,14 @@
+---
+title: 关于 Promise 的一些理解
+date: 2018-02-09
+category: JavaScript
+tags:
+  - Promise
+  - JavaScript
+  - 异步编程
+summary: 从 Promise/A+ 的核心约束出发，逐步拆解一个简化版 Promise 的实现方式。
+---
+
 # 关于Promise的一些理解
 
 本文仅是阐述个人的一些理解，如有不对的地方，请指正

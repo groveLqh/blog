@@ -1,3 +1,14 @@
+---
+title: Hybrid App 框架架构思考
+date: 2018-02-09
+category: 前端工程
+tags:
+  - Hybrid App
+  - JsBridge
+  - 移动端
+summary: 梳理 H5 与 Native 通信的痛点、目标、交互规则和 JsBridge 实现思路。
+---
+
 # Hybrid App框架架构思考
 
 
