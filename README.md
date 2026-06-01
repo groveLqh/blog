@@ -20,12 +20,18 @@
 
 | 日期 | 文章 | 分类 | 标签 |
 | --- | --- | --- | --- |
+| 2026-06-02 | [VNC：Agent 云沙箱里的可视化远程控制层](doc/Agent%20基础设施/vnc-remote-control-agent-sandbox.md) | Agent 基础设施 | VNC、noVNC、Browser Agent、Playwright、沙箱 |
 | 2026-05-29 | [面向企业的 AI 数字员工：概念、产品形态与基础设施缺口](doc/AI%20观察/ai-digital-employees-enterprise-agents.md) | AI 观察 | AI Agent、数字员工、企业软件 |
 | 2026-05-28 | [AI 资本开支、光通信与存储股票逻辑拆解](doc/AI%20观察/ai-capex-stocks-analysis-2026-05-28.md) | AI 观察 | AI 基建、投资逻辑、光通信、存储 |
-| 2018-02-09 | [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md) | 前端工程 | Hybrid App、JsBridge、移动端 |
+| 2018-02-09 | [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md) | 前端工程 | Hybrid App、JsBridge、移动端 |
 | 2018-02-09 | [关于 Promise 的一些理解](doc/JavaScript/%E5%85%B3%E4%BA%8EPromise%E7%9A%84%E4%B8%80%E4%BA%9B%E7%90%86%E8%A7%A3.md) | JavaScript | Promise、JavaScript、异步编程 |
 
 ## 分类浏览
+
+### Agent 基础设施
+
+- 2026-06-02 · [VNC：Agent 云沙箱里的可视化远程控制层](doc/Agent%20基础设施/vnc-remote-control-agent-sandbox.md)
+  结合 AgentRun All-In-One Sandbox，从协议原理、线上服务器图形环境、Headless/Headed 差异和 Browser Agent 架构角度，解释 VNC 在云上自动化中的定位。
 
 ### AI 观察
 
@@ -36,7 +42,7 @@
 
 ### 前端工程
 
-- 2018-02-09 · [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md)
+- 2018-02-09 · [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md)
   梳理 H5 与 Native 通信场景中的痛点、目标、交互规则和 JsBridge 方案。
 
 ### JavaScript
@@ -56,12 +62,13 @@
 
 ### 2026
 
+- 2026-06-02 · [VNC：Agent 云沙箱里的可视化远程控制层](doc/Agent%20基础设施/vnc-remote-control-agent-sandbox.md) · Agent 基础设施
 - 2026-05-29 · [面向企业的 AI 数字员工：概念、产品形态与基础设施缺口](doc/AI%20观察/ai-digital-employees-enterprise-agents.md) · AI 观察
 - 2026-05-28 · [AI 资本开支、光通信与存储股票逻辑拆解](doc/AI%20观察/ai-capex-stocks-analysis-2026-05-28.md) · AI 观察
 
 ### 2018
 
-- 2018-02-09 · [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md) · 前端工程
+- 2018-02-09 · [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md) · 前端工程
 - 2018-02-09 · [关于 Promise 的一些理解](doc/JavaScript/%E5%85%B3%E4%BA%8EPromise%E7%9A%84%E4%B8%80%E4%BA%9B%E7%90%86%E8%A7%A3.md) · JavaScript
 
 ## 旧文章索引
@@ -78,47 +85,3 @@
 | 8 | node 文件更新自动重载 | [Issue #6](https://github.com/Liqihan/blog/issues/6) | Node.js |
 | 7 | scrollIntoView 方法 | [Issue #8](https://github.com/Liqihan/blog/issues/8) | Web API |
 | 6 | 用户操作的历史记录（前进，后退，清空） | [Issue #7](https://github.com/Liqihan/blog/issues/7) | Web API |
-| 5 | 前端持久化 -- evercookie | [Issue #5](https://github.com/Liqihan/blog/issues/5) | 前端工程 |
-| 4 | Git 如何提交只改了文件名大小写的变更？ | [Issue #4](https://github.com/Liqihan/blog/issues/4) | 工程效率 |
-| 3 | 控制微信中点击返回事件 | [Issue #3](https://github.com/Liqihan/blog/issues/3) | 微信 H5 |
-| 2 | 单页应用在微信中设置标题 | [Issue #2](https://github.com/Liqihan/blog/issues/2) | 微信 H5 |
-| 1 | 无处不在的 path 模块 | [Issue #1](https://github.com/Liqihan/blog/issues/1) | Node.js |
-
-## 文章维护约定
-
-新增文章时建议在 Markdown 文件顶部补齐如下元信息，方便 README、静态站点或脚本自动生成索引：
-
-```yaml
----
-title: 文章标题
-date: YYYY-MM-DD
-category: 分类
-tags:
-  - 标签一
-  - 标签二
-summary: 一句话摘要
----
-```
-
-推荐目录组织：
-
-```text
-doc/
-  AI 观察/
-    文章标题.md
-  前端工程/
-    文章标题.md
-  JavaScript/
-    文章标题.md
-lib/
-  可复用代码片段
-basic-algorithm/
-  算法练习
-```
-
-## 关于作者
-
-- 作者：饮水
-- Email：grovelqh@gmail.com / liqi_han@163.com
-- GitHub：[https://github.com/Liqihan](https://github.com/Liqihan)
-- 掘金：[https://juejin.im/user/57c2ed595bbb5000633c4d13](https://juejin.im/user/57c2ed595bbb5000633c4d13)
