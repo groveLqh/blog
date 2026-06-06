@@ -1,7 +1,7 @@
 ---
 title: Hybrid App 框架架构思考
 date: 2018-02-09
-category: 前端工程
+category: 技术与系统
 tags:
   - Hybrid App
   - JsBridge
