@@ -1,87 +1,213 @@
 # 饮水的博客
 
-> 把踩过的坑、拆过的代码、正在观察的技术趋势，整理成一份可以反复翻阅的个人知识库。
+记录技术、产品、组织与自我认知的持续演化。
 
-这里不追求“每日更新”的流水账，更像是一个长期打磨的技术花园：
+很多文章从技术开始，最终却在讨论产品、组织与人。
 
-- **前端与工程实践**：记录 Hybrid App、微信 H5、性能优化、工具函数等真实项目里遇到的问题。
-- **JavaScript 与基础能力**：用源码、算法和小实验，把常见概念拆到能自己实现的程度。
-- **AI 与产业观察**：关注 AI Agent、数字员工、AI 基建等方向，尽量把热点概念拆成可判断的逻辑。
-- **代码与文章互相印证**：文章按分类放在 `doc/` 的子目录中，实践代码放在 `lib/` 和 `basic-algorithm/`，避免只写观点不留证据。
+---
 
-## 怎么阅读
+## About
 
-- 想快速看最近写了什么，可以从「最新文章」开始。
-- 想按主题找内容，可以跳到「分类浏览」。
-- 想回顾完整时间线，可以看「归档」。
-- 想看早期 GitHub Issues 里的旧文章，可以看「旧文章索引」。
+这里记录一个技术人在 AI 时代不断变化的认知过程。
 
-## 最新文章
+有些文章在研究技术。
 
-| 日期 | 文章 | 分类 | 标签 |
-| --- | --- | --- | --- |
-| 2026-06-02 | [VNC：Agent 云沙箱里的可视化远程控制层](doc/Agent%20基础设施/vnc-remote-control-agent-sandbox.md) | Agent 基础设施 | VNC、noVNC、Browser Agent、Playwright、沙箱 |
-| 2026-05-29 | [面向企业的 AI 数字员工：概念、产品形态与基础设施缺口](doc/AI%20观察/ai-digital-employees-enterprise-agents.md) | AI 观察 | AI Agent、数字员工、企业软件 |
-| 2026-05-28 | [AI 资本开支、光通信与存储股票逻辑拆解](doc/AI%20观察/ai-capex-stocks-analysis-2026-05-28.md) | AI 观察 | AI 基建、投资逻辑、光通信、存储 |
-| 2018-02-09 | [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md) | 前端工程 | Hybrid App、JsBridge、移动端 |
-| 2018-02-09 | [关于 Promise 的一些理解](doc/JavaScript/%E5%85%B3%E4%BA%8EPromise%E7%9A%84%E4%B8%80%E4%BA%9B%E7%90%86%E8%A7%A3.md) | JavaScript | Promise、JavaScript、异步编程 |
+有些文章在理解产品。
 
-## 分类浏览
+有些文章在观察组织。
 
-### Agent 基础设施
+还有一些文章在重新理解自己。
 
-- 2026-06-02 · [VNC：Agent 云沙箱里的可视化远程控制层](doc/Agent%20基础设施/vnc-remote-control-agent-sandbox.md)
-  结合 AgentRun All-In-One Sandbox，从协议原理、线上服务器图形环境、Headless/Headed 差异和 Browser Agent 架构角度，解释 VNC 在云上自动化中的定位。
+我关注的主题包括：
 
-### AI 观察
+- Agent 与 AI Native Software
+- 产品与平台设计
+- 技术组织与个人成长
+- AI 时代的产业与投资机会
 
-- 2026-05-29 · [面向企业的 AI 数字员工：概念、产品形态与基础设施缺口](doc/AI%20观察/ai-digital-employees-enterprise-agents.md)
-  从企业级落地角度理解 AI 数字员工，重点讨论岗位化、权限、审计、协作与基础设施缺口。
-- 2026-05-28 · [AI 资本开支、光通信与存储股票逻辑拆解](doc/AI%20观察/ai-capex-stocks-analysis-2026-05-28.md)
-  对 AI 资本开支带来的产业链观点进行拆解，并强调高风险观点不能直接作为投资依据。
+这些文章并不试图提供标准答案。
 
-### 前端工程
+更多时候，它们只是记录一个问题：
 
-- 2018-02-09 · [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md)
-  梳理 H5 与 Native 通信场景中的痛点、目标、交互规则和 JsBridge 方案。
+> 当 AI 开始改变软件、组织和工作方式时，我们应该如何重新理解技术、产品和自己。
 
-### JavaScript
+---
 
-- 2018-02-09 · [关于 Promise 的一些理解](doc/JavaScript/%E5%85%B3%E4%BA%8EPromise%E7%9A%84%E4%B8%80%E4%BA%9B%E7%90%86%E8%A7%A3.md)
-  从 Promise/A+ 的核心约束出发，逐步实现一个简化版 Promise。
+## 如何阅读
 
-## 代码笔记
+这个 Blog 主要由五条主线构成：
 
-这个仓库里也保存了一些可复用代码和算法练习，后续可以把成熟内容整理成文章：
+### 01. 技术与系统
 
-- `lib/`：前端工具函数、Promise 实现、BetterScroll 等实践代码。
-- `basic-algorithm/`：数组、排序和基础算法练习。
-- `test/`：与代码片段配套的简单测试或示例。
+回答：
 
-## 归档
+> 它是什么？
 
-### 2026
+关注：
 
-- 2026-06-02 · [VNC：Agent 云沙箱里的可视化远程控制层](doc/Agent%20基础设施/vnc-remote-control-agent-sandbox.md) · Agent 基础设施
-- 2026-05-29 · [面向企业的 AI 数字员工：概念、产品形态与基础设施缺口](doc/AI%20观察/ai-digital-employees-enterprise-agents.md) · AI 观察
-- 2026-05-28 · [AI 资本开支、光通信与存储股票逻辑拆解](doc/AI%20观察/ai-capex-stocks-analysis-2026-05-28.md) · AI 观察
+- Agent
+- MCP / ACP
+- A2A
+- Browser Use
+- AI Coding
+- Agent Runtime
+- 系统架构设计
 
-### 2018
+这部分更多是技术研究与概念拆解。
 
-- 2018-02-09 · [Hybrid App 框架架构思考](doc/前端工程/Hybrid%20App%E6%A1%86%E6%9E%B6%E6%9E%84%E6%80%9D%E8%80%83.md) · 前端工程
-- 2018-02-09 · [关于 Promise 的一些理解](doc/JavaScript/%E5%85%B3%E4%BA%8EPromise%E7%9A%84%E4%B8%80%E4%BA%9B%E7%90%86%E8%A7%A3.md) · JavaScript
+---
 
-## 旧文章索引
+### 02. 产品与平台
 
-下面保留早期通过 GitHub Issues 记录的文章入口，后续可以逐步迁移到 `doc/` 并补齐元信息。
+回答：
 
-| 序号 | 标题 | 链接 | 建议分类 |
-| --- | --- | --- | --- |
-| 13 | 关于 Promise 的一些理解 | [Issue #16](https://github.com/Liqihan/blog/issues/16) | JavaScript |
-| 12 | 狠扣代码的细节，性能提升 40 倍：Node 程序性能分析和优化 | [历史文档](https://github.com/Liqihan/blog/blob/master/doc/%E8%B5%84%E8%AE%AF%E5%90%8E%E5%8F%B0%E5%88%86%E4%BA%AB%EF%BC%9ANode%E7%A8%8B%E5%BA%8F%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%92%8C%E4%BC%98%E5%8C%96%EF%BC%88%E7%AC%AC%E4%B8%80%E5%BC%B9%EF%BC%89%EF%BC%89%EF%BC%88%E7%BB%84%E5%86%85%E5%88%86%E4%BA%AB%EF%BC%89.md) | Node.js |
-| 11 | 淘宝 flexible.js 漏洞修补：记一次 rem 踩坑记录（转载） | [Issue #11](https://github.com/Liqihan/blog/issues/11) | 移动端 |
-| 10 | Hybrid APP 架构设计思路（转载） | [Issue #9](https://github.com/Liqihan/blog/issues/9) | 前端工程 |
-| 9 | 前端代码异常监控 | [Issue #9](https://github.com/Liqihan/blog/issues/9) | 前端工程 |
-| 8 | node 文件更新自动重载 | [Issue #6](https://github.com/Liqihan/blog/issues/6) | Node.js |
-| 7 | scrollIntoView 方法 | [Issue #8](https://github.com/Liqihan/blog/issues/8) | Web API |
-| 6 | 用户操作的历史记录（前进，后退，清空） | [Issue #7](https://github.com/Liqihan/blog/issues/7) | Web API |
+> 为什么这样设计？
+
+关注：
+
+- AI Native Product
+- 数字员工
+- Agent OS
+- 企业平台能力
+- AI 产品形态演化
+
+这部分更多是产品与平台思考。
+
+---
+
+### 03. 组织与成长
+
+回答：
+
+> 为什么事情会这样运转？
+
+关注：
+
+- 技术人成长
+- 专家角色
+- 团队协作
+- 技术影响力
+- 组织认知
+
+这部分记录技术人成长过程中遇到的真实问题与认知变化。
+
+推荐阅读：
+
+- 《技术人的成长：如何让自己的价值穿过组织》
+- 《专家的工作，不是解决问题，而是定义问题》
+
+---
+
+### 04. 产业与资本
+
+回答：
+
+> 技术如何改变商业世界？
+
+关注：
+
+- AI Infra
+- GPU
+- 光通信
+- 存储
+- 核能
+- AI 产业链
+- 投资逻辑
+
+这里的重点不是股价，而是理解技术趋势如何影响产业结构。
+
+---
+
+### 05. 认知演化
+
+回答：
+
+> 我的理解是如何变化的？
+
+记录：
+
+- 长期思考
+- 观察与判断
+- 职业成长
+- AI 时代的个人变化
+
+如果说前面几个分类在研究世界，那么这一部分更多是在研究自己。
+
+---
+
+## 推荐文章
+
+### 组织与成长
+
+- 《技术人的成长：如何让自己的价值穿过组织》
+- 《专家的工作，不是解决问题，而是定义问题》
+
+---
+
+### 产品与平台
+
+- 《面向企业的 AI 数字员工：概念、产品形态与基础设施缺口》
+
+---
+
+### 技术与系统
+
+- 《VNC：Agent 云沙箱里的可视化远程控制层》
+
+---
+
+## 写作原则
+
+这个 Blog 尽量避免：
+
+- 追热点
+- 三点总结
+- 方法论拼凑
+- 公众号式干货
+
+我更希望记录：
+
+- 一个真实问题
+- 一个观察到的现象
+- 一个长期困惑
+- 一次认知变化
+
+因此很多文章并不是从答案开始。
+
+而是从问题开始。
+
+例如：
+
+- 为什么我越来越难回答“今天做了什么”？
+- 为什么技术人的成就感和组织的评价体系会冲突？
+- 为什么很多团队一直在讨论答案，却没有讨论问题？
+- 为什么技术人越往上走越像产品经理？
+
+我越来越觉得：
+
+> 答案会过时。
+>
+> 但真正的问题，会陪伴我们很多年。
+
+---
+
+## 关于作者
+
+前端工程师出身。
+
+长期关注：
+
+- AI Agent
+- AI Product
+- 企业软件
+- 数字员工
+- 技术组织
+- AI 产业趋势
+
+但比起技术本身，我越来越关心：
+
+> 技术如何改变产品、组织和人的工作方式。
+
+所以很多文章从技术开始。
+
+最终却在讨论产品、组织与人。
