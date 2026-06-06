@@ -2,7 +2,7 @@
 title: 面向企业的 AI 数字员工：概念、产品形态与基础设施缺口
 date: 2026-05-29
 updated: 2026-06-01
-category: AI 观察
+category: 产品与平台
 tags:
   - AI Agent
   - 数字员工

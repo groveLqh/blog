@@ -1,7 +1,7 @@
 ---
 title: AI 资本开支、光通信与存储股票逻辑拆解
 date: 2026-05-28
-category: AI 观察
+category: 产业与资本
 tags:
   - AI 基建
   - 投资逻辑

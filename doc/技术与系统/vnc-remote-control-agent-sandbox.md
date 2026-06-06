@@ -2,7 +2,7 @@
 title: VNC：Agent 云沙箱里的可视化远程控制层
 date: 2026-06-02
 updated: 2026-06-02
-category: Agent 基础设施
+category: 技术与系统
 tags:
   - VNC
   - noVNC

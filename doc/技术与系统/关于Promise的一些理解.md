@@ -1,7 +1,7 @@
 ---
 title: 关于 Promise 的一些理解
 date: 2018-02-09
-category: JavaScript
+category: 技术与系统
 tags:
   - Promise
   - JavaScript
