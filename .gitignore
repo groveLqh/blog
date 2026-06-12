@@ -1,1 +1,5 @@
 d2
+.DS_Store
+node_modules/
+dist/
+.env

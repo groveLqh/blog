@@ -169,6 +169,41 @@ doc/
 
 ---
 
+## 博客网站与自动部署
+
+这个仓库现在可以直接生成静态博客网站，并通过 GitHub Actions 自动部署到 GitHub Pages。
+
+### 本地预览
+
+```bash
+npm run build
+npm run serve
+```
+
+执行后打开 `http://localhost:4173` 即可预览。
+
+### 写新文章
+
+1. 在 `doc/` 下选择对应分类目录。
+2. 新建 Markdown 文件，并建议添加 frontmatter：
+
+```yaml
+---
+title: 文章标题
+date: 2026-06-12
+category: 技术与系统
+tags:
+  - AI Agent
+summary: 一句话摘要，会展示在首页卡片里。
+---
+```
+
+3. 提交并推送到 `main` 或 `master` 分支后，`.github/workflows/deploy.yml` 会自动构建 `dist/` 并发布到 GitHub Pages。
+
+### GitHub Pages 设置
+
+首次使用时，在 GitHub 仓库设置中进入 **Settings → Pages**，将 Source 设置为 **GitHub Actions**。之后每次推送都会自动部署到 `github.io` 页面。
+
 ## 写作原则
 
 这个 Blog 尽量避免：
