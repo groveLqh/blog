@@ -35,7 +35,7 @@
 
 ## 如何阅读
 
-这个 Blog 主要由五条主线构成：
+这个 Blog 主要由六条主线构成：
 
 ### 01. 技术与系统
 
@@ -135,9 +135,35 @@
 
 ---
 
+### 06. Agent 面试知识点
+
+回答：
+
+> 如何快速理解一个 Agent / AI 系统设计知识点？
+
+关注：
+
+- Agent Planning
+- Memory & Context
+- Tool Use
+- Multi-Agent
+- MCP / A2A / ACP
+- Agent Runtime
+- Enterprise Agent
+- Browser Use / Computer Use
+- AI Native Software
+
+这部分不是长文章，而是面向面试、技术讨论、团队培训和知识库沉淀的短知识点。
+
+推荐阅读：
+
+- [《Agent 面试知识点》](doc/Agent面试知识点/README.md)
+
+---
+
 ## 目录结构
 
-文章统一按五条主线归档，目录结构保持为：
+文章统一按六条主线归档，目录结构保持为：
 
 ```text
 doc/
@@ -145,7 +171,8 @@ doc/
 ├── 产品与平台
 ├── 组织与成长
 ├── 产业与资本
-└── 认知演化
+├── 认知演化
+└── Agent面试知识点
 ```
 
 ## 推荐文章
@@ -166,6 +193,12 @@ doc/
 ### 技术与系统
 
 - [《VNC：Agent 云沙箱里的可视化远程控制层》](doc/技术与系统/vnc-remote-control-agent-sandbox.md)
+
+---
+
+### Agent 面试知识点
+
+- [《Agent 面试知识点：从 Agent 到 AI Native Software 的系统设计知识地图》](doc/Agent面试知识点/README.md)
 
 ---
 
