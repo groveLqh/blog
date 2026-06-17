@@ -41,7 +41,7 @@
 - [001 为什么 Agent 需要任务规划（Planning）？](01-Agent-Fundamentals/001-为什么Agent需要任务规划.md)
 - [002 子 Agent 如何传递上下文？](01-Agent-Fundamentals/002-子Agent如何传递上下文.md)
 - [003 ReAct 为什么成为 Agent 标配？](01-Agent-Fundamentals/003-ReAct为什么成为Agent标配.md)
-- 004 CoT、ToT、GoT 有什么区别？
+- [004 CoT、ToT、GoT 有什么区别？](01-Agent-Fundamentals/004-CoT-ToT-GoT有什么区别.md)
 - 005 Agent 为什么需要 Reflection？
 - 006 Agent 为什么需要 State？
 - 007 Agent 为什么会陷入死循环？
