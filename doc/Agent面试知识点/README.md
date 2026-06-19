@@ -43,7 +43,7 @@
 - [003 ReAct 为什么成为 Agent 标配？](01-Agent-Fundamentals/003-ReAct为什么成为Agent标配.md)
 - [004 CoT、ToT、GoT 有什么区别？](01-Agent-Fundamentals/004-CoT-ToT-GoT有什么区别.md)
 - [005 Agent 为什么需要 Reflection？](01-Agent-Fundamentals/005-Agent为什么需要Reflection.md)
-- 006 Agent 为什么需要 State？
+- [006 Agent 为什么需要 State？](01-Agent-Fundamentals/006-Agent为什么需要State.md)
 - 007 Agent 为什么会陷入死循环？
 - 008 Agent 如何避免工具幻觉？
 - 009 Agent 的生命周期是什么？
