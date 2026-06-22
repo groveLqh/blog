@@ -16,23 +16,14 @@
 
 ## 文章模板
 
-```markdown
-# Agent 面试知识点 #001：标题
-
-## 问题
-
-## 面试官在考什么？
-
-## 核心知识点
-
-## 工业界方案
-
-## 常见误区
-
-## 面试加分答案
-
-## 延伸阅读
-```
+- 标题
+- 问题
+- 面试官在考什么？
+- 核心知识点
+- 工业界方案
+- 常见误区
+- 面试加分答案
+- 延伸阅读
 
 ---
 
@@ -46,7 +37,7 @@
 - [006 Agent 为什么需要 State？](01-Agent-Fundamentals/006-Agent为什么需要State.md)
 - [007 Agent 为什么会陷入死循环？](01-Agent-Fundamentals/007-Agent为什么会陷入死循环.md)
 - [008 Agent 如何避免工具幻觉？](01-Agent-Fundamentals/008-Agent如何避免工具幻觉.md)
-- 009 Agent 的生命周期是什么？
+- [009 Agent 的生命周期是什么？](01-Agent-Fundamentals/009-Agent的生命周期是什么.md)
 - 010 ChatBot 和 Agent 的本质区别是什么？
 
 ---
