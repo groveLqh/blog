@@ -47,7 +47,7 @@
 - [007 Agent 为什么会陷入死循环？](01-Agent-Fundamentals/007-Agent为什么会陷入死循环.md)
 - [008 Agent 如何避免工具幻觉？](01-Agent-Fundamentals/008-Agent如何避免工具幻觉.md)
 - [009 Agent 的生命周期是什么？](01-Agent-Fundamentals/009-Agent的生命周期是什么.md)
-- 010 ChatBot 和 Agent 的本质区别是什么？
+- [010 ChatBot 和 Agent 的本质区别是什么？](01-Agent-Fundamentals/010-ChatBot和Agent的本质区别是什么.md)
 
 ---
 
