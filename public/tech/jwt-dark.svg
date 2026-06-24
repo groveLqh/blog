@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="JWT logo">
+  <rect width="128" height="128" rx="28" fill="#0B0B0F"/>
+  <g transform="translate(64 64)">
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#FF4D6D" transform="rotate(0)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#2DD4BF" transform="rotate(45)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#60A5FA" transform="rotate(90)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#C084FC" transform="rotate(135)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#22C55E" transform="rotate(180)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#06B6D4" transform="rotate(225)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#F472B6" transform="rotate(270)"/>
+    <rect x="-7" y="-50" width="14" height="30" rx="7" fill="#A855F7" transform="rotate(315)"/>
+  </g>
+  <circle cx="64" cy="64" r="10" fill="#FFFFFF"/>
+</svg>

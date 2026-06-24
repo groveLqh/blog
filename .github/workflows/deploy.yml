@@ -28,7 +28,18 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build static blog
+      - name: Set GitHub Pages base path
+        run: |
+          if [[ "${{ github.event.repository.name }}" == *.github.io ]]; then
+            echo "BASE_PATH=" >> "$GITHUB_ENV"
+          else
+            echo "BASE_PATH=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
+          fi
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build portfolio blog
         run: npm run build
 
       - name: Configure GitHub Pages

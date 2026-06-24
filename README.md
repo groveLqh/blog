@@ -197,3 +197,57 @@ doc/
 ---
 
 ### Agent 面试知识点
+
+- [《Agent 面试知识点总览》](doc/Agent面试知识点/README.md)
+
+---
+
+
+## 基于 CharanMunur/Portfolio 模板改造
+
+这个博客现在直接迁移为 React + Vite + TypeScript 的 portfolio/blog 应用结构，并保留 `doc/` 里的 Markdown 作为内容来源。参考模板仓库：`CharanMunur/Portfolio`。
+
+### 保留的模板结构
+
+- `/`：portfolio 首页，包含 Hero、Skills、Featured Blogs、Topics 和 Quote Section。
+- `/blogs`：博客列表页。
+- `/blogs/:slug`：博客详情页，使用 `react-markdown` 渲染 Markdown。
+- `/contact`：联系页。
+- `src/components/`：Navbar、Footer、BlogCard 等复用组件。
+- `src/pages/`：路由页面。
+- `src/data/`：站点资料与自动生成的博客数据。
+
+### 内容生成
+
+构建前会运行：
+
+```bash
+node scripts/generate-blog-data.mjs
+```
+
+它会扫描 `doc/**/*.md`，提取标题、摘要、分类、标签和正文，生成 `src/data/generated-blog.ts`，再由 Vite 构建成静态站点。
+
+### 部署到 GitHub Pages
+
+1. 把仓库推送到 GitHub。
+2. 进入 **Settings → Pages**。
+3. 在 **Build and deployment** 选择 **GitHub Actions**。
+4. 推送到 `main` 或 `master` 后，workflow 会执行：
+   - `npm install`
+   - `npm run build`
+   - 上传 `dist/` 到 GitHub Pages
+
+如果仓库名不是 `yourname.github.io`，workflow 会自动设置 `BASE_PATH=/<repo-name>`，让 Vite 在项目站点路径下正确加载资源。
+
+### 本地开发
+
+```bash
+npm install
+npm run dev
+```
+
+### 生产构建
+
+```bash
+npm run build
+```

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Redis logo">
+  <path fill="#DC382D" d="M256 52 452 140 256 228 60 140 256 52Z"/>
+  <path fill="#BF261C" d="M60 140v86l196 88 196-88v-86L256 228 60 140Z"/>
+  <path fill="#A61F16" d="M60 226v86l196 88 196-88v-86L256 314 60 226Z"/>
+  <path fill="#8E1912" d="M60 312v86l196 88 196-88v-86L256 400 60 312Z"/>
+  <path fill="#FFFFFF" d="M256 120 328 154 256 188 184 154 256 120Z"/>
+  <circle cx="192" cy="196" r="28" fill="#FFFFFF"/>
+  <path fill="#FFFFFF" d="M332 182 390 214 332 246 274 214 332 182Z"/>
+  <path fill="#FFFFFF" d="M220 272 278 304 220 336 162 304 220 272Z"/>
+  <path fill="#FFFFFF" d="M312 276 370 308 312 340 254 308 312 276Z"/>
+</svg>
