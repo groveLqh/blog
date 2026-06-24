@@ -1,6 +1,6 @@
 export const site = {
-  name: "饮水",
-  handle: "@yinshui",
+  name: "grove",
+  handle: "@grove",
   role: "AI Native Software / 产品 / 技术组织写作者",
   tagline: "记录技术、产品、组织与自我认知的持续演化。",
   description:

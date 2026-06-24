@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { containerVariants, itemVariants } from "@/lib/motionVariants";
 import { assetUrl } from "@/lib/assets";
 import { site } from "@/data/site";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
             {/* avatar */}
             <img
               src={assetUrl("/assets/avatar.jpg")}
-              alt="饮水头像"
+              alt="grove 头像"
               className="block h-35 w-35 shrink-0 rounded-full border-2 border-border object-cover object-center p-1 shadow-sm sm:h-40 sm:w-40"
             />
           </div>
@@ -89,14 +90,12 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap gap-3 sm:gap-4 pt-2">
-            <a href="/contact">
-              <Button
-                size="lg"
-              >
+            <Button asChild size="lg">
+              <Link to="/contact">
                 Get in Touch
                 <ChevronRight strokeWidth={2.25} />
-              </Button>
-            </a>
+              </Link>
+            </Button>
             <a
               href={site.repoUrl}
               target="_blank"
