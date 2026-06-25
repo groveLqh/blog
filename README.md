@@ -227,17 +227,27 @@ node scripts/generate-blog-data.mjs
 
 它会扫描 `doc/**/*.md`，提取标题、摘要、分类、标签和正文，生成 `src/data/generated-blog.ts`，再由 Vite 构建成静态站点。
 
-### 部署到 GitHub Pages
+### 部署到 Vercel
 
-1. 把仓库推送到 GitHub。
-2. 进入 **Settings → Pages**。
-3. 在 **Build and deployment** 选择 **GitHub Actions**。
-4. 推送到 `main` 或 `master` 后，workflow 会执行：
-   - `npm install`
-   - `npm run build`
-   - 上传 `dist/` 到 GitHub Pages
+这个站点优先部署到 Vercel。Vercel 会按 Vite 项目处理：
 
-如果仓库名不是 `yourname.github.io`，workflow 会自动设置 `BASE_PATH=/<repo-name>`，让 Vite 在项目站点路径下正确加载资源。
+- Install Command：`npm install`
+- Build Command：`npm run build`
+- Output Directory：`dist`
+
+本地首次部署可以执行：
+
+```bash
+npx vercel link
+npx vercel --prod
+```
+
+访问统计 API 依赖 Vercel 环境变量：
+
+- `SUPABASE_URL`
+- `SUPABASE_SERVICE_ROLE_KEY`
+
+`vercel.json` 已配置 `/api/*` 和前端 SPA fallback，刷新 `/blogs/:slug` 这类前端路由时会回退到 `index.html`。
 
 ### 本地开发
 

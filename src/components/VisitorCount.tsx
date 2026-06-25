@@ -13,9 +13,17 @@ const VisitorCount = () => {
 
     const track = async () => {
       const visitor_id = getOrCreateFingerprint();
+      const visitorsEndpoint =
+        import.meta.env.VITE_VISITORS_API_URL ||
+        (import.meta.env.BASE_URL === "/" ? "/api/visitors" : null);
+
+      if (!visitorsEndpoint) {
+        setLoading(false);
+        return;
+      }
 
       try {
-        const res = await fetch("/api/visitors", {
+        const res = await fetch(visitorsEndpoint, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ visitor_id }),

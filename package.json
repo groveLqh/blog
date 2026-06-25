@@ -10,8 +10,7 @@
     "dev": "node scripts/generate-blog-data.mjs --watch & vite --host 0.0.0.0",
     "lint": "eslint .",
     "preview": "vite preview --host 0.0.0.0",
-    "serve": "vite preview --host 0.0.0.0 --port 4173",
-    "postbuild": "cp dist/index.html dist/404.html && touch dist/.nojekyll"
+    "serve": "vite preview --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.8",

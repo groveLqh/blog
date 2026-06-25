@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Play, Pause } from "lucide-react";
+import { assetUrl } from "@/lib/assets";
 
 const MusicBars = () => (
   <div className="flex items-end gap-[2px] h-3 w-4">
@@ -34,7 +35,7 @@ const MusicIcon = ({
       className="w-12 h-12 rounded-xl overflow-hidden cursor-pointer active:scale-95 transition-all shadow-sm group"
     >
       <img
-        src="/assets/aruarian-dance.webp"
+        src={assetUrl("/assets/aruarian-dance.webp")}
         alt="Aruarian Dance"
         className={`w-full h-full object-cover transition-transform duration-500 ${
           isPlaying ? "scale-110" : "scale-100 group-hover:scale-105"
@@ -62,7 +63,7 @@ export const MusicPlayer = () => {
     <div className="w-full flex justify-end pr-2">
       <audio
         ref={audioRef}
-        src="/assets/aruarian dance.mp3"
+        src={assetUrl("/assets/aruarian dance.mp3")}
         loop
         onEnded={() => setIsPlaying(false)}
       />
