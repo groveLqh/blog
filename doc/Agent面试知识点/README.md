@@ -54,7 +54,7 @@
 ## 第二章：Memory & Context
 
 - [011 Agent 为什么需要 Memory？](02-Memory-Context/011-Agent为什么需要Memory.md)
-- 012 RAG 和 Memory 的区别是什么？
+- [012 RAG 和 Memory 的区别是什么？](02-Memory-Context/012-RAG和Memory的区别是什么.md)
 - 013 Short-Term Memory 是什么？
 - 014 Long-Term Memory 是什么？
 - 015 Working Memory 是什么？
