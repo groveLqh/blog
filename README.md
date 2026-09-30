@@ -187,12 +187,15 @@ doc/
 ### 产品与平台
 
 - [《面向企业的 AI 数字员工：概念、产品形态与基础设施缺口》](doc/产品与平台/ai-digital-employees-enterprise-agents.md)
+- [《TypeSafe Jev 结构化决策模型调研》](doc/产品与平台/typesafe-jev-system-one-models-research.md)
+- [《Jev 与 Laya 决策模型对比和选型方法》](doc/产品与平台/jev-vs-laya-comparison.md)
 
 ---
 
 ### 技术与系统
 
 - [《VNC：Agent 云沙箱里的可视化远程控制层》](doc/技术与系统/vnc-remote-control-agent-sandbox.md)
+- [《Laya 源码解析 从预训练编码器到结构化决策》](doc/技术与系统/laya-source-analysis.md)
 
 ---
 
