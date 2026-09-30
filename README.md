@@ -196,6 +196,7 @@ doc/
 
 - [《VNC：Agent 云沙箱里的可视化远程控制层》](doc/技术与系统/vnc-remote-control-agent-sandbox.md)
 - [《Laya 源码解析 从预训练编码器到结构化决策》](doc/技术与系统/laya-source-analysis.md)
+- [《从 Qwen 0.5B 到 Jev-like 决策模型的源码拆解》](doc/技术与系统/qwen-small-decision-model-source-analysis.md)
 
 ---
 
